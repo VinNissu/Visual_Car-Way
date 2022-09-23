@@ -1,20 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_BR">
+
 <head>
+    <title>Car-Way</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Conexões -->
-    <link rel="stylesheet" href="./css/styles.css">
+    <!-- conexões  -->
+    <!-- 1º conexões externas  -->
 
 
-    <title>Car-Way</title>
-</head>
-<body>
+    <!-- (conexão com o google api) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <!-- biblioteca de icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!-- Fontes do google -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,300;1,700&display=swap"
+        rel="stylesheet">
+
+       <!-- Recursos do bootstrap   -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+        <!-- Conexao com css internto   -->
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+
+<!-- __________________FIM DAS CONEXOES E PARTE  INICIAL _______________________ -->
     
+
+
+
+
+
+<!-- __________________COMECANDO O BODY_______________________ -->
+<body>
+<!-- dentro do body criar um header com uma class  -->
+<header class="fixed-top">
+
+<!-- criando um navbar dentro do header  com boostrap -->
+
+<ul class="nav justify-content-center  ">
+   
+
+
+
+    <div class="menu-hamb">
+        <a href="#">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      </svg>
+    </a>
+    </div>
+      
+
+
+
+
+
+    <li class="nav-item">
+        <a class="nav-link active" href="#" aria-current="page"></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Localização</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled link</a>
+    </li>
+</ul>
+
 </body>
 
 
-<script src="./javascript/costumer.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap JavaScript Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
+    </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script src="./javascript/costumer.js"></script>
+
 </html>
