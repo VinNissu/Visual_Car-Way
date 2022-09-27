@@ -3,16 +3,41 @@ body{
 }
 
 .menu-hamb{
-    width: 11%;
+    width: 10%;
     background-color:  rgb(0, 0, 0);
-    border-radius: 20%;
-    position: static;
+    border-radius: 13%;
+    position: relative;
     top: 0;
     left: 0;
-    margin-left: -14%;
-    margin-top:  2%;
+    margin-left: -17%;
 }
 .menu-hamb svg{
     color: rgb(255, 255, 255);
+}
+
+header hr {
+    border: 50%;
+    margin-top: 0.5%;
     
+}
+
+section img {
+    margin-top: 5%;
+    border-radius: 8%;
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 2px 2px #888888;
+}
+
+section {
+    width: 100%;
+}
+
+section svg {
+    width: 10%;
+    
+}
+
+#icon-localizacao{
+    width: 15%;
 }
