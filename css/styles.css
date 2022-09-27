@@ -39,5 +39,14 @@ section svg {
 }
 
 #icon-localizacao{
-    width: 15%;
+    width: 10%;
+    margin-left: 15%;
+}
+
+#menu-hamburguer{
+ margin-left: -80%;
+}
+
+#imagem-profile{
+    width: 30%;
 }
