@@ -120,8 +120,6 @@ section svg {
 
 #textcolor{
     color: whitesmoke;
-    justify-content: center;
-    text-align: center;
 }
 
 
@@ -205,6 +203,7 @@ section svg {
 
 @media screen and (max-width:992px){
     #logreg-forms{
+        width: 90%;
     }
     
     #logreg-forms  .social-login{
