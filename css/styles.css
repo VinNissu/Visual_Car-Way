@@ -72,7 +72,14 @@ section svg {
 }
 
 .bordaredondacard{
-    border-radius: 10px;
+    border-radius: 13px;
+}
+#textsmall{
+    font-size: 13px;
+
+    text-align: center;
+
+    margin-left: 70%;
 }
 
 #localizacaovoce  {
