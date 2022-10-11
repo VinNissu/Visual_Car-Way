@@ -29,6 +29,14 @@ section img {
     margin-left: 10%;
     box-shadow: 2px 4px 5px #665e5e;
 }
+divBottom img{
+    margin-top: 20%;
+    border-radius: 30%;
+    margin-right: 50px;
+
+
+ 
+}
 
 section {
     width: 100%;
@@ -38,6 +46,16 @@ section svg {
     width:11%;
 }
 
+.textcenter{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.textposition{
+    position: absolute;
+    top: 190px;
+    left:45%;
+}
 .menu-hamb{
     width: 100%;
     height: 30px;
@@ -87,8 +105,6 @@ section svg {
 
 }
 
-
-
 #fonte-1{
     font-family: 'Raleway', sans-serif;
 
@@ -107,6 +123,11 @@ section svg {
     width: 12%;
     margin-left: 2%;
     box-shadow: 1px 1px 0 #665e5e ;
+}
+
+#imagemmundi{
+    width: 100%;
+    justify-content: center;
 }
 
 
