@@ -34,8 +34,6 @@ divBottom img{
     border-radius: 30%;
     margin-right: 50px;
 
-
- 
 }
 
 section {
@@ -45,6 +43,15 @@ section {
 section svg {
     width:11%;
 }
+
+.grupoiconseta{
+    width: 5%;
+    margin-top: 1%;
+
+}
+
+
+
 
 .textcenter{
     align-items: center;
