@@ -15,11 +15,12 @@ header {
 }
 
 hr {
-    position: relative;
-    border: none;
-    height: 1px;
-    background: rgb(5, 5, 5);
-    color: blue;
+    
+    height: 5px;
+    color: rgb(0, 0, 0);
+    margin-top: 4%;
+    
+    
 }
 
 section img {
@@ -98,6 +99,9 @@ section svg {
 
 .bordaredondacard{
     border-radius: 13px;
+    width: 104%;
+    margin-left: -2%;
+    height: 102%;
 }
 #textsmall{
     font-size: 13px;

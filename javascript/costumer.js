@@ -10,10 +10,13 @@ function toggleSignUp(e){
     $('#logreg-forms .form-signup').toggle(); // display:block or none
 }
 
-$(()=>{
+(()=>{
     // Login Register Form
     $('#logreg-forms #forgot_pswd').click(toggleResetPswd);
     $('#logreg-forms #cancel_reset').click(toggleResetPswd);
     $('#logreg-forms #btn-signup').click(toggleSignUp);
     $('#logreg-forms #cancel_signup').click(toggleSignUp);
 })
+
+
+AOS.init();
