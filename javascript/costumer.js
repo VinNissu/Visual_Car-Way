@@ -18,5 +18,4 @@ function toggleSignUp(e){
     $('#logreg-forms #cancel_signup').click(toggleSignUp);
 })
 
-
 AOS.init();

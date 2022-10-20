@@ -1,27 +1,32 @@
 body{
+    padding-top:50px;
     background-color: 
-    rgb(230, 226, 226);
+    rgb(0, 0, 0);
 
 }
 
-header {
-
-    margin-top: 0.7%;
-    background-color: rgb(35, 14, 228);
-    z-index: 1000;
-    position: fixed;
-    margin-left: 65%;
-    margin-top: 100%;
+.barra-nav{
+    background-color: rgb(192, 192, 192);
+    border-bottom-left-radius:14px;
+    border-bottom-right-radius:14px;
+    box-shadow: 1px 2px 15px rgb(0, 0, 0);
 }
 
-hr {
-    
-    height: 5px;
+.menu-hamb svg{
     color: rgb(0, 0, 0);
-    margin-top: 4%;
-    
-    
 }
+
+
+#localizacaoIcon{
+border-radius: 20%;
+}
+
+
+.localizacaoicon svg{
+    color: rgb(14, 10, 10);
+    border-radius: 10%;
+}
+
 
 section img {
     margin-top: 5%;
@@ -64,19 +69,7 @@ section svg {
     top: 190px;
     left:45%;
 }
-.menu-hamb{
-    width: 100%;
-    height: 30px;
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    
-}
-.menu-hamb svg{
-    color: rgb(9, 9, 9);
-    width: 100%;
-}
+
 
 .tamicon{
     width: 17%;
@@ -86,12 +79,7 @@ section svg {
 .tamicon svg{
     width: 65%;
 }
-.localizacaoicon svg{
-    justify-content: center;
- 
-    color: rgb(14, 10, 10);
-    border-radius: 10%;
-}
+
 
 .colorbuton{
     background-color:  black;
@@ -101,7 +89,7 @@ section svg {
     border-radius: 13px;
     width: 104.5%;
     margin-left: -2.5%;
-    height: 102%;
+    height: 104%;
 }
 #textsmall{
     font-size: 13px;
@@ -126,9 +114,6 @@ section svg {
 
 }
 
-#menu-hamburguer{
- margin-left: -80%;
-}
 
 #imagem{
     width: 12%;
@@ -142,12 +127,7 @@ section svg {
 }
 
 
-#menuHamb{
-    position: fixed;
-    width: 6.5%;
-    margin-top: 2.1%;
-    margin-left: 2.0%;
-}
+
 
 
 #localizacao {
@@ -155,15 +135,7 @@ section svg {
     align-items: center;
 }
 
-#localizacaoIcon{
-    margin-left: 80%;
-    position: fixed;
-    top: 0.3%;
-    width: 6.5%;
-    margin-top: 1.5%;
-    margin-left: 54.0%;
-    border-radius: 20%;
-}
+
 
 #textcolor{
     color: black;
