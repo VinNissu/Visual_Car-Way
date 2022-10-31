@@ -1,7 +1,29 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
 body{
     padding-top:50px;
     background-color: 
-    rgb(255, 255, 255);
+    rgb(26, 26, 26);
 
 }
 
@@ -42,10 +64,10 @@ border-radius: 20%;
 
 
 section img {
-    margin-top: 5%;
+    margin-top: 10%;
+    margin-left: 1%;
     border-radius: 3%;
-    width: 80%;
-    margin-left: 10%;
+    width: 97%;
     box-shadow: 2px 4px 5px #665e5e;
 }
 divBottom img{
@@ -101,7 +123,7 @@ section svg {
 .bordaredondacard{
     width: 106%;
     margin-left: -3.0%;
-    height: 107%;
+    height: 110%;
     border-radius: 10px;
     
 }
@@ -190,6 +212,11 @@ section svg {
 .radiusborder{
     border-radius: 15px;
     opacity: 100%;
+}
+
+.gradedistancia{
+    margin-top: 20%;
+
 }
 
 .btn-success bs-btn-hover-bg:hover{
@@ -330,5 +357,19 @@ section svg {
     #logreg-forms  .google-btn:after{
         content:'Google+';
     }
+    
+}
+
+
+/* 
+STYLE DO GPS 
+*/
+
+/*divtop*/ 
+.setavoltar{
+margin-left: -15px;
+}
+.setavoltar svg{
+    width: 80%;
     
 }
