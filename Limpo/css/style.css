@@ -24,7 +24,7 @@ time, mark, audio, video {
     box-shadow: 1px 1px 30px rgba(36, 32, 32, 0.657) ;
 }
 .shadowimg{
-	box-shadow: 1px 1px 100px rgba(49, 10, 139, 0.664);  
+	box-shadow: 1px 2px 100px rgba(111, 16, 175, 0.678);  
 }
 .bordardaimg{
 	border-bottom-left-radius: 30px;
@@ -40,10 +40,17 @@ time, mark, audio, video {
 	max-width: 100%;
 	width: 150px;
 }
+.imagemdogrupo{
+	max-width: 100%;
+}
 .shadowsection{
 	box-shadow: 1px 1px 10px rgb(0, 0, 0);  
 }
 
 .buttonconfig{
 	border-radius: 10px;
+}
+.iconehamburguer{
+	width: 12%;
+	color: black;
 }
