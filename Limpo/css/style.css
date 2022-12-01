@@ -26,6 +26,12 @@ time, mark, audio, video {
 .shadowimg{
 	box-shadow: 1px 1px 100px rgba(49, 10, 139, 0.664);  
 }
+.bordardaimg{
+	border-bottom-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius:5px;
+}
 .imagemdofeed{
 	border-bottom-left-radius: 30px;
 	border-top-right-radius: 30px;
