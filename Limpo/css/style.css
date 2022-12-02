@@ -27,8 +27,8 @@ time, mark, audio, video {
 	box-shadow: 1px 1px 100px rgba(49, 10, 139, 0.664);  
 }
 .imagemdofeed{
-	border-bottom-left-radius: 30px;
-	border-top-right-radius: 30px;
+	border-bottom-left-radius: 50px;
+	border-top-right-radius: 50px;
 }
 .imagemdousuario{
 	max-width: 100%;
@@ -41,3 +41,23 @@ time, mark, audio, video {
 .buttonconfig{
 	border-radius: 10px;
 }
+.borderadius{
+	border-radius: 10px
+}
+.blocoenviarfoto{
+	position: fixed;
+	right: 10px;
+	bottom:10px;
+	display: block;
+	height: 100px;
+	width: 100px;
+
+	border-radius: 20px;
+}
+
+.iconenviarfoto{
+	font-size: 80px;
+	color: rgb(0, 0, 0);
+}
+
+
