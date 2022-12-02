@@ -24,7 +24,13 @@ time, mark, audio, video {
     box-shadow: 1px 1px 30px rgba(36, 32, 32, 0.657) ;
 }
 .shadowimg{
-	box-shadow: 1px 1px 100px rgba(49, 10, 139, 0.664);  
+	box-shadow: 1px 2px 100px rgba(111, 16, 175, 0.678);  
+}
+.bordardaimg{
+	border-bottom-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius:5px;
 }
 .imagemdofeed{
 	border-bottom-left-radius: 50px;
@@ -33,6 +39,9 @@ time, mark, audio, video {
 .imagemdousuario{
 	max-width: 100%;
 	width: 150px;
+}
+.imagemdogrupo{
+	max-width: 100%;
 }
 .shadowsection{
 	box-shadow: 1px 1px 10px rgb(0, 0, 0);  
@@ -44,20 +53,24 @@ time, mark, audio, video {
 .borderadius{
 	border-radius: 10px
 }
+
 .blocoenviarfoto{
 	position: fixed;
-	right: 10px;
-	bottom:10px;
+	right: 40px;
+	bottom:25px;
 	display: block;
 	height: 100px;
 	width: 100px;
-
 	border-radius: 20px;
 }
 
 .iconenviarfoto{
 	font-size: 80px;
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }
 
 
+.iconehamburguer{
+	width: 12%;
+	color: black;
+}
