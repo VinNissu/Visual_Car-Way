@@ -7,11 +7,16 @@
 }
 
 /* CSS FEED  */
+.posicaodocabecario{
+	position:fixed;
+	top:0;
+	z-index: 1000;
+}
 .shadowcabecario{
-    box-shadow: 1px 1px 30px rgba(36, 32, 32, 0.657) ;
+    box-shadow: 1px 1px 25px rgba(51, 12, 160, 0.876) ;
 }
 .shadowimg{
-	box-shadow: 1px 2px 100px rgba(111, 16, 175, 0.678);  
+	box-shadow: 1px 2px 100px rgba(62, 9, 187, 0.678);  
 }
 .bordardaimg{
 	border-bottom-left-radius: 30px;
@@ -20,8 +25,8 @@
 	border-bottom-right-radius:5px;
 }
 .imagemdofeed{
-	border-bottom-left-radius: 50px;
-	border-top-right-radius: 50px;
+	border-radius: 50px;
+	width: 90%;
 }
 .imagemdousuario{
 	max-width: 100%;
@@ -37,7 +42,7 @@
 	border-radius: 10px;
 }
 .borderadius{
-	border-radius: 10px
+	border-radius: 10px;
 }
 .blocoenviarfoto{
 	position: fixed;
@@ -56,6 +61,11 @@
 	width: 12%;
 	color: black;
 }
+.usuarioindex{
+	z-index: 0;
+}
+
+
 
 /* CSS-LOGIN */
 
@@ -230,4 +240,47 @@ main{
 	background-size: cover;
 	background-position: center;
 	flex: 1;
+}
+
+/* CSS DA TELA DE UPLOAD */
+
+
+.login__button__enviar{
+	width: 70px;
+	height: 70px;
+	padding: 20px;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffffff;
+	border-radius: 20px;
+	border: none;
+	cursor: pointer;
+	margin-bottom: 60px;
+}
+.login__button__enviar:hover{
+	background-color: black;
+	color: white;
+}
+.login__logo__enviar{
+	width: 130px;
+	margin-bottom: 80px;
+}
+.fotoenviada{
+	width: 200%;
+	margin-left: 50%;
+	margin-top: 10%;
+	max-width: 800px;
+	max-height: 800px;
+	background-size: cover;
+	background-position: center;
+	flex: 1;
+	border-radius: 30px;
+}
+.shadowimg__enviar{
+	box-shadow: 1px 2px 100px rgba(62, 9, 187, 0.678);  
+}
+.texto__de__enviar{
+	position: fixed;
+	margin-left: 30%;
+	margin-top: 1%;
 }
