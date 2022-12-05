@@ -1,7 +1,7 @@
 
 // JAVASCRIPT DA TELA FEED
 function modal() {
-    alert("Você sera redirecionado para o site de reports");
+    alert("Você está indo para o upload");
 }
 
 
@@ -42,3 +42,6 @@ const handleFocusOut = ({ target }) =>{
 inputs.forEach((input) =>  input.addEventListener('focus', handleFocus));
 inputs.forEach((input) =>  input.addEventListener('focusout', handleFocusOut));
 inputs.forEach((input) =>  input.addEventListener('input', handleChange));
+
+
+AOS.init();
