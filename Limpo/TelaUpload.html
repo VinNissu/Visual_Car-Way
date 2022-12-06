@@ -21,6 +21,12 @@
 
            <h1 class="login__title">O'que deseja enviar?</h1>
 
+           <div class="mb-3">
+            <label for="foto" class="form-label text-white fs-5">Selecione uma arquivo para enviar</label>
+            <input type="file" class="form-control" name="foto" id="" placeholder="" aria-describedby="fileHelpId">
+            <div id="fileHelpId" class="form-text text-white fs-6 fw-bold">Somente JPG, PNG ou GIF</div>
+          </div>
+
            <label class="login__label"></label>
 
            
@@ -37,8 +43,12 @@
     </section>
 
     <section class="bg-black">
-      <img class="fotoenviada shadowimg__enviar" src="imgs/rx7.jpg" alt="imagem-a-enviar">
-      <h1 class="text-light texto__de__enviar">Digite algo sobre a foto.</h1>  
+      <img class="fotoenviada shadowimg__enviar" src="./imgs/ponto-de-interrogacao.jpg" alt="imagem-a-enviar">
+      <h1 class="text-light texto__de__enviar">Digite algo sobre a foto.
+          <label for="mensagem" class="form-label"></label>
+          <textarea class="form-control" name="mensagem" id="" rows="5" maxlength="256"></textarea>
+      </h1>  
+      
     </section>
       
   </main>

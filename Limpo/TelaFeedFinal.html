@@ -18,11 +18,16 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
 <!--Recursos do Bootstrapp-->
 
 
-<!-- Conexao com css internto   -->
+<!-- Conexao com css    -->
 <link rel="stylesheet" href="./css/style.css">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- Conexao com css    -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Conexao data aos js-->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<!-- Conexao com css internto   -->
+<!-- Conexao data aos js-->
 
 </head>
 <body>
@@ -34,21 +39,28 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
     <h1 class="col-2 text-light d-flex justify-content-center fs-5 d-none d-lg-block"><a href="TelaUpload.html" target="_blank" rel="noopener noreferrer"><button class="btn btn-light d-flex justify-content-end fs-6 mt-2" onclick="modal()"></i>Enviar uma foto
     </button></a></h1>
     <h1 class="col-1 text-light d-flex justify-content-center fs-5 d-none d-lg-block"><a href="TelaUpload.html"><button class="btn btn-light d-flex justify-content-end fs-6 mt-2" onclick="modal()">Comunidade&nbsp;<i class="fa-solid fa-people-group mt-1"></i></button></a></h1>
+
+
+
+<!--Mobile-->
+<section class="d-flex justify-content-between px-5 container bg-black d-md-block d-lg-none">
+  <h1 class="text-light col-4 fs-4 ms-5 mt-1 cssCabe"><i class="fa-solid fa-list fs-5"></i>Menu</h1>
+  <h1 class="text-black col-4 fs-4 ms-5 me-5 mt-1 bg-white cssCabe2">Enviar</h1>
+  
+
 </section>
 
-
-
-<a href="http://" target="_blank" rel="noopener noreferrer"></a>
+</section>
 
 <section class="cardbox">
 <section class="shadowsection mt-5 px-5 bg-white mx-5"data-aos="fade-up"
 data-aos-duration="1000">
     <div>&nbsp;</div>
-    <div class="container-fluid borderadius bg-black d-flex justify-content-between">
+    <div class="container-fluid borderadius bg-black d-flex justify-content-between ">
         <div class="card mb-1 mt-1" style="max-width:300px;">
             <div class="row g-0">
               <div class="col-4">
-                <img class="img-thumbnail imagemdousuario d-none d-lg-block mt-2" src="./imgs/Interrogação-profile.jpg"></img>
+                <img class="img-thumbnail imagemdousuario d-none d-lg-block mt-2 ms-1" src="./imgs/Interrogação-profile.jpg"></img>
               </div>
               
               <div class="col-md-8 usuarioindex d-none d-lg-block ">
@@ -61,13 +73,13 @@ data-aos-duration="1000">
           </div>
     <h1 class="text-light mt-2 d-none d-lg-block"><i class="fa-solid fa-earth-oceania mt-3"></i>SP/SJC/Vila</h1>   
     <h1 class="text-light ms-5 ps-5 d-none d-lg-block"></i><button class="btn btn-light d-flex justify-content-end fs-3 mt-4" onclick="modal()"></i>reportar
-    </button></h1> 
+    </button></h1>
 </div>
 
 
 
 
-<div class="container d-flex justify-content-center mt-5 " data-aos="zoom-in">
+<div class="container d-flex justify-content-center mt-5" data-aos="zoom-in">
     <img class="img-fluid col-12 shadowimg imagemdofeed" alt="Imagem-feed" src="./imgs/ponto-de-interrogacao.jpg"></img>
 </div> 
 
@@ -86,19 +98,19 @@ data-aos-duration="1000">
 </div>
 </section>
 
-
   <a href="#" class="blocoenviarfoto">
-    <span class="iconenviarfoto"><i class="fa-solid fa-square-plus"></i></span>
+    <span class="iconenviarfoto d-none d-lg-block"><i class="fa-solid fa-file-circle-plus" data-aos="zoom-out-right"></i></span>
     
   </a>
 
 
+  <!-- Mobile-->
+
+  
+
+
 
 </section>
-
-
-
-
 
 <section class="cardbox">
   <section class="shadowsection mt-5 px-5 bg-white mx-5"data-aos="fade-up"
@@ -146,9 +158,6 @@ data-aos-duration="1000">
   </div>
   </section>
   
-  
-    <a href="TelaUpload.html" class="blocoenviarfoto">
-      <span class="iconenviarfoto"><i class="fa-solid fa-square-plus bg-black"></i></span>
       
     </a>
   

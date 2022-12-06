@@ -51,13 +51,16 @@
 	right: 40px;
 	bottom:25px;
 	display: block;
-	height: 100px;
-	width: 100px;
-	border-radius: 20px;
+	background-color: rgba(240, 248, 255, 0);
+	border-radius: 50px;
+	z-index: 1000;
+}
+.iconenviarfoto:hover{
+color: rgb(228, 12, 12);
 }
 .iconenviarfoto{
 	font-size: 80px;
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 }
 .iconehamburguer{
 	width: 12%;
@@ -67,6 +70,20 @@
 	z-index: 0;
 }
 
+@media only screen and (max-width: 992px){
+main{
+		width: 100%;
+		flex-direction: column-reverse;
+		justify-content: left;		
+}
+.cssCabe{
+	margin-left:50%;
+}
+.cssCabe2{
+	border-bottom-left-radius: 15px;
+}
+
+}
 
 
 /* CSS-LOGIN */
@@ -253,15 +270,16 @@ main{
 	padding: 20px;
 	align-items: center;
 	justify-content: center;
-	background-color: #ffffff;
+	background-color: #030303;
+	color: white;
 	border-radius: 20px;
 	border: none;
 	cursor: pointer;
 	margin-bottom: 60px;
 }
 .login__button__enviar:hover{
-	background-color: black;
-	color: white;
+	background-color: rgb(253, 253, 253);
+	color: rgb(0, 0, 0);
 }
 .login__logo__enviar{
 	width: 130px;
