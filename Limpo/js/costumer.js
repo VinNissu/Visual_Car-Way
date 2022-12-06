@@ -5,6 +5,11 @@ function modal() {
 }
 
 
+function modalComu() {
+    alert("Você está indo para aba comunidade");
+}
+
+
 
 
 
