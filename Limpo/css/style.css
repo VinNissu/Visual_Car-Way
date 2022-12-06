@@ -266,9 +266,9 @@ main{
 
 
 .login__button__enviar{
-	width: 70px;
+	width: 300px;
 	height: 70px;
-	padding: 20px;
+	padding: 10px;
 	align-items: center;
 	justify-content: center;
 	background-color: #030303;
@@ -281,7 +281,31 @@ main{
 .login__button__enviar:hover{
 	background-color: rgb(253, 253, 253);
 	color: rgb(0, 0, 0);
+	box-shadow: 1px 1px 25px rgba(51, 12, 160, 0.876) ;
 }
+.login__button__enviar__lado_direito{
+	position: fixed;
+	right: 40px;
+	bottom:25px;
+	display: block;
+	width: 70px;
+	height: 70px;
+	padding: 1px;
+	align-items: center;
+	justify-content: center;
+	background-color: #030303;
+	color: white;
+	border-radius: 20px;
+	border: none;
+	cursor: pointer;
+	margin-bottom: 60px;
+	box-shadow: 1px 1px 25px rgba(51, 12, 160, 0.876) ;
+}
+.login__button__enviar__lado_direito:hover{
+	background-color: rgb(253, 253, 253);
+	color: rgb(0, 0, 0);
+}
+
 .login__logo__enviar{
 	width: 130px;
 	margin-bottom: 80px;
@@ -304,4 +328,32 @@ main{
 	position: fixed;
 	margin-left: 30%;
 	margin-top: 1%;
+}
+
+/* CSS DA TELA DA COMUNIDADE */
+
+.imagem__cardbox{
+	border-radius: 15px;
+	max-width: 350px;
+	max-height: 300px;
+	min-width: 200px;
+	min-height: 250px;
+	box-shadow: 1px 1px 25px rgba(51, 12, 160, 0.876) ;
+
+}
+.card__config{
+max-width: 350px;
+max-height: 460px;
+}
+.login__button__voltar__feed{
+	width: 70px;
+	height: 70px;
+	padding: 20px;
+	align-items: center;
+	justify-content: center;
+	background-color: #fcf3f3;
+	border-radius: 20px;
+	border: none;
+	cursor: pointer;
+	margin-bottom: 60px;
 }
