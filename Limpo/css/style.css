@@ -55,6 +55,15 @@
 	border-radius: 50px;
 	z-index: 1000;
 }
+.blocoenviarfoto{
+	position: fixed;
+	right: 40px;
+	bottom:25px;
+	display: block;
+	background-color: rgba(240, 248, 255, 0);
+	border-radius: 50px;
+	z-index: 1000;
+}
 .iconenviarfoto:hover{
 color: rgb(228, 12, 12);
 }
@@ -376,4 +385,3 @@ max-height: 460px;
 	cursor: grab;
 	transition: all .5s ease-in-out;
 }
-
