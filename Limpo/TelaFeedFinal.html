@@ -16,6 +16,7 @@
 integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 <!--Recursos do Bootstrapp-->
 <!-- Conexao com css    -->
+<link rel="stylesheet" href="css/styleMenuLateral.css">
 <link rel="stylesheet" href="./css/style.css">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <!-- Conexao com css    -->
@@ -25,17 +26,56 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
 <!-- Conexao data aos js-->
 
 </head>
+<head>
+
+  <input type="checkbox" id="check">
+  <label for="check">
+   <i class=" fas fa-bars" id="btn"></i>
+   <i class=" fas fa-times"  id="cancel"></i>
+  </label>
+  <div class="sidebar">
+   <header>Menu</header>
+    <a href="#" class="active">
+     <i class="fas fa-qrcode"></i>
+     <span>Painel</span>
+    </a>
+    <a href="#">
+     <i class="fas fa-link"></i>
+     <span>Localizacao</span>
+    </a>
+    <a href="#">
+     <i class="fas fa-stream"></i>
+     <span class="decoration-none">Configurar</span>
+    </a>
+    <a href="#">
+     <i class="fas fa-calendar"></i>
+     <span>Eventos</span>
+    </a>
+    <a href="#">
+     <i class="fas fa-question-circle"></i>
+     <span>Sobre nos</span>
+    </a>
+    <a href="#">
+     <i class="fas fa-slider-h"></i>
+     <span>Serviços</span>
+    </a>
+    <a href="#">
+     <i class="fas fa-enveloper"></i>
+     <span>Contato</span>
+    </a>
+  </div>
+ </head>
 <body>
 
 <section class="col-12  d-flex justify-content-between bg-black cssDoCabecario posicaodocabecario px-5" data-aos="flip-up">
-      <h1><a href="#" class="fs-3 d-none d-lg-block mt-2 text-light text-decoration-none"><i class="fa-solid fa-layer-group text-light fs-5"></i>Menu</a></h1>
+      <h1><a href="#" class="fs-3 d-none d-lg-block mt-2 text-light text-decoration-none"><i class="fa-solid fa-layer-group text-light fs-5"></i></a></h1>
 
     </h1> 
 
     <h1 class="col-2 d-none d-lg-block "><a class="text-decoration-none" href="#" target="_blank" rel="noopener noreferrer" ><button class="btn btn-light d-flex justify-content-end fs-6 mt-2" ></i>Você está em SJC<i class="fa-solid fa-map-pin mt-1"></i></button></a>
     </h1>
 
-    <h1 class="col-2 text-light d-flex justify-content-center fs-5 d-none d-lg-block"><a  class="text-decoration-none"href="TelaUpload.html" target="_blank" rel="noopener noreferrer"><button class="btn btn-light d-flex justify-content-end fs-6 mt-2" onclick="modal()"></i>Enviar uma foto
+    <h1 class="col-2 text-light d-flex justify-content-center fs-5 d-none d-lg-block"><a  class="text-decoration-none"href="./TelaUploadFinal.html" target="_blank" rel="noopener noreferrer"><button class="btn btn-light d-flex justify-content-end fs-6 mt-2" onclick="modal()"></i>Enviar uma foto
     </button></a>
     </h1>
 
@@ -46,13 +86,17 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
 
 <!--Mobile-->
 <section class="d-flex justify-content-between px-5 container bg-black d-md-block d-lg-none">
-  <h1 class="text-light col-4 fs-4 ms-5 mt-1 cssCabe"><i class="fa-solid fa-list fs-5"></i>Menu</h1>
-  <h1 class="text-black col-4 fs-4 ms-5 me-5 mt-1 bg-white cssCabe2">Enviar</h1>
+  <h1 class="text-light col-4 fs-4 mt-4"></i>Menu</h1>
+  <a href="TelaUploadFinal.html"><h1 class="text-light col-4 fs-4 bordamobile decoration-none mt-4">Enviar</h1></a>
+  
+  
   
 
 </section>
 
 </section>
+
+
 
 <section class="cardbox">
 <section class="shadowsection mt-5 px-5 bg-white mx-5"data-aos="fade-up"
@@ -100,18 +144,10 @@ data-aos-duration="1000">
 </div>
 </section>
 
-  <a href="./TelaUpload.html" class="blocoenviarfoto">
+  <a href="./TelaUploadFinal.html" class="blocoenviarfoto">
     <span class="iconenviarfoto d-none d-lg-block"><i class="fa-solid fa-file-circle-plus" data-aos="zoom-out-right"></i></span>
     
   </a>
-
-
-  <!-- Mobile-->
-
-  
-
-
-
 </section>
 
 <section class="cardbox">
@@ -166,9 +202,6 @@ data-aos-duration="1000">
   
   
   </section>
-  
-
-
 </body>
 </html>
 

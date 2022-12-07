@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family-Montserrat:600|Opens+Sans:600&display=swap%27');
+
+*{
+ margin: 0;
+ padding:0;
+ text-decoration: none;
+}
+
+.sidebar{
+ z-index: 1001;
+ position: fixed;
+ width: 240px;
+ left: -240px;
+ height: 100%;
+ background: #f5f1f1;
+ transition: all .5s ease;
+ margin-top:-30px;
+}
+.sidebar:hover{
+ z-index: 1001;
+ box-shadow: 1px 1px 30px #7524b8;
+ transition: ease-in-out 1s;
+}
+
+.sidebar header{
+ z-index: 1001;
+ font-size: 28px;
+ color: rgb(13, 12, 12);
+ line-height: 70px;
+ text-align: darkblue;
+ background-color: #f1eeee;
+ font-family: 'Montserrat',sans-serif;
+ user-select : none;
+}
+
+.sidebar a{
+ z-index: 1001;
+ display: block;
+ height: 65px;
+ width: 100%;
+ color: rgb(19, 17, 17);
+ line-height: 65px;
+ padding-left: 30px;
+ box-sizing: border-box;
+ border-bottom: 1px solid rgb(245, 243, 243);
+ border-top: 1px solid rgba(255,255,255,.1);
+ border-left: 5px solid transparent;
+ font-family: 'Open Sans' Sans-serif;
+ transition: all .5s ease;
+}
+
+a.active,a:hover{
+ z-index: 1001;
+	border-left: 5px solid #7524b8;
+ box-shadow: 1px 1px 5px #7524b8;
+}
+
+.sidebar a i{
+ z-index: 1001;
+	font-size: 23px;
+	margin-right: 16px;
+}
+
+.sidebar a span{
+ z-index: 1001;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+#check{
+ z-index: 1001;
+	display: none;
+}
+
+label #btn,label #cancel{
+ z-index: 1001;
+	position: fixed;
+ top: 0;
+	cursor: pointer;
+	color: rgb(8, 8, 8);
+	border-radius: 10px;
+ margin-top: 3px;
+ margin-left: 3px;
+	font-size: 20px;
+	background-color:#f3f1f1;
+	height: 45px;
+	width: 100px;
+	text-align:center;	
+	line-height: 45px;
+	transition: all .9s ease;
+}
+
+label #cancel{
+	opacity: 0;
+	visibility: hidden;	
+}
+#check:checked ~ .sidebar{
+	left: 0;
+}
+
+#check:checked ~ label #btn{
+	 margin-left: 245px;
+	 opacity: 1;
+		visibility: visible;
+}
+
+@media(max-width: 860px){.sidebar{
+	height: auto;
+	width: 70px;
+	left: 0;
+	margin: 100px 0;
+}
+header, #btn,#cancel{
+ display: none;
+}
+span{
+ position: absolute;
+ margin-left: 23px;
+ opacity: 0;
+ visibility: hidden;
+}
+.sidebar a{
+ height:60px;
+}
+.sidebar a i{
+ margin-left: -10px;
+}
+
+a:hover {
+ width: 200px;
+ background: inherit;
+}
+.sidebar a:hover span{
+ opacity: 1;
+ visibility:visible;
+}
+}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+
 *{
 	margin:0;
 	padding:0;
@@ -76,11 +76,8 @@ main{
 		flex-direction: column-reverse;
 		justify-content: left;		
 }
-.cssCabe{
-	margin-left:50%;
-}
-.cssCabe2{
-	border-bottom-left-radius: 15px;
+.bordamobile{
+	border-radius: 15px;
 }
 
 }
@@ -255,7 +252,7 @@ main{
 }
 .wallpaper{
 	width: 100%;
-	background-image: url('../imgs/logo.png');
+	background-image: url('../imgs/logo-car-way.png');
 	background-size: cover;
 	background-position: center;
 	flex: 1;
@@ -346,14 +343,37 @@ max-width: 350px;
 max-height: 460px;
 }
 .login__button__voltar__feed{
+	position: fixed;
+	top:0;
+	bottom:0;
+	margin-left: 1%;
+	margin-top: 2%;
 	width: 70px;
 	height: 70px;
-	padding: 20px;
+	padding: 1px;
 	align-items: center;
 	justify-content: center;
-	background-color: #fcf3f3;
+	background-color: #080808;
+	color: white;
 	border-radius: 20px;
 	border: none;
 	cursor: pointer;
 	margin-bottom: 60px;
+	z-index: 1000;
 }
+.login__button__voltar__feed:hover{
+	background-color: rgb(253, 253, 253);
+	color: rgb(0, 0, 0);
+	box-shadow: 1px 1px 25px rgba(51, 12, 160, 0.876) ;
+}
+
+.imagem__cardbox:hover{
+	width: 150%;
+	border-radius: 15px;
+	min-width: 200px;
+	min-height: 250px;
+	box-shadow: 1px 1px 100px rgba(206, 17, 17, 0.876) ;
+	cursor: grab;
+	transition: all .5s ease-in-out;
+}
+
