@@ -1,8 +1,11 @@
 # Site apenas trabalhado na parte visual.
 
-## Tecnologias usadas
--HTML
--CSS
+## tecnologias utilizadas 
+ - HTML
+ - CSS
+ - FontAwesome 
+ - AOS Scroll Animation
+ - Google Fonts 
 
 https://vinnyalmeidabr.github.io/HTML-car-w
 
