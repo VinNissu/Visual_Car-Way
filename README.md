@@ -1,6 +1,10 @@
-# HTML-CAR-WAY-FINAL.
+# Site apenas trabalhado na parte visual.
 
-https://vinnyalmeidabr.github.io/HTML-CAR-WAY-FINAL/
+## Tecnologias usadas
+-HTML
+-CSS
+
+https://vinnyalmeidabr.github.io/HTML-car-w
 
 ![Uploading image.png…]()
 
